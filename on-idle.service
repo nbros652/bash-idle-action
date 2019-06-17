@@ -1,0 +1,11 @@
+[Unit]
+Description = perform an action when all logged in desktop sessions are idle
+After = network.target
+
+[Service]
+# Restart=always
+# RestartSec=1
+ExecStart = /root/scripts/on-idle-service.sh
+
+[Install]
+WantedBy = multi-user.target
