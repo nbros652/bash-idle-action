@@ -2,7 +2,7 @@
 
 
 idleCmd="touch /tmp/idle"   # command to run when idleTimeout is reached
-idleTimeout=600             # how many idle seconds to wait for shutdown
+idleTimeout=600             # how many idle seconds to wait before running idleCmd
 checkInterval=10            # how many seconds between checks
 
 isIdle() {
