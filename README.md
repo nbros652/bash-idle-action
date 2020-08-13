@@ -2,6 +2,7 @@
 Run an action when all logged on users are idle for a predetermined number of seconds.
 
 To get this working:
+ - Install xprintidle: `sudo apt install -y xprintidle`
  - copy the **on-idle-service.sh** script to **/root/scripts/**
  - open and edit that same script and modify the three variables at the top to your purposes
  - copy the **on-idle.service** file to the **/etc/systemd/system/** folder
